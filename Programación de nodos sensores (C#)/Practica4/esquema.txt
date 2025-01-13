@@ -1,0 +1,19 @@
+#include <pyhread.h>
+parámetros{
+	identdificacion
+	política
+	acciones del hilo
+	entradas del hilo
+}
+#include <pthread.h>
+
+int pthread_create (thread, attr, start_routine (void *), arg)
+pthread_t *thread;
+const pthread_attr_t *attr;
+void *(*start_routine) (void *);
+void *arg;
+
+broker es el mqtt (intermediario)
+1º lanzo el broker
+2º conecto el sensor (creo el canal)
+3º me suscribo y publico

@@ -1,0 +1,59 @@
+VERSION 05/10/2023 17:21:42
+FIG #C:\Users\alexo\OneDrive\Documents\MasterNuevasTecnologiasElectronicasyFotonicas\DiseñodeCircuitosIntegrados\Inversor_PseudoNMOS_
+BB(19,15,96,54)
+SIMU #5.00
+REC(19,32,24,16,NW)
+REC(66,38,30,16,NW)
+REC(85,44,5,4,DP)
+REC(72,44,5,4,DP)
+REC(32,38,5,4,DP)
+REC(25,38,5,4,DP)
+REC(85,19,5,12,DN)
+REC(78,19,5,12,DN)
+REC(32,21,5,4,DN)
+REC(25,21,5,4,DN)
+REC(87,20,2,2,CO)
+REC(79,26,2,2,CO)
+REC(79,20,2,2,CO)
+REC(73,45,2,2,CO)
+REC(34,22,2,2,CO)
+REC(26,39,2,2,CO)
+REC(26,22,2,2,CO)
+REC(34,39,2,2,CO)
+REC(87,26,2,2,CO)
+REC(87,45,2,2,CO)
+REC(77,41,8,10,PO)
+REC(30,18,2,10,PO)
+REC(30,35,2,10,PO)
+REC(83,16,2,18,PO)
+REC(78,15,4,14,ME)
+REC(72,44,4,8,ME)
+REC(25,17,4,8,ME)
+REC(25,38,4,8,ME)
+REC(33,21,4,21,ME)
+REC(86,19,4,29,ME)
+REC(77,44,8,4,DP)
+REC(30,38,2,4,DP)
+REC(83,19,2,12,DN)
+REC(30,21,2,4,DN)
+TITLE 27 44  #Vdd
+$1 1000 0 
+TITLE 27 19  #Vss
+$0 1000 0 
+TITLE 31 44  #Vss
+$0 1000 0 
+TITLE 31 27  #clock1
+$c 1000 0 0.2250 0.2500 0.4750 0.5000 
+TITLE 35 29  #s1
+$v 1000 0 
+TITLE 74 50  #Vdd
+$1 1000 0 
+TITLE 81 49  #Vss
+$0 1000 0 
+TITLE 80 17  #Vss
+$0 1000 0 
+TITLE 84 33  #clock2
+$c 1000 0 0.2250 0.2500 0.4750 0.5000 
+TITLE 88 36  #s2
+$v 1000 0 
+FFIG C:\Users\alexo\OneDrive\Documents\MasterNuevasTecnologiasElectronicasyFotonicas\DiseñodeCircuitosIntegrados\Inversor_PseudoNMOS_

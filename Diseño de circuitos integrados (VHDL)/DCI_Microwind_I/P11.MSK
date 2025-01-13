@@ -1,0 +1,36 @@
+VERSION 20/11/2023 12:51:28
+FIG #C:\Users\alexo\OneDrive\Documents\MasterNuevasTecnologiasElectronicasyFotonicas\DiseñodeCircuitosIntegrados\Práctica1\P11.MSK
+BB(19,12,63,34)
+SIMU #5.00
+REC(19,12,24,22,NW)
+REC(32,18,5,10,DP)
+REC(25,18,5,10,DP)
+REC(58,18,5,10,DN)
+REC(51,18,5,10,DN)
+REC(34,25,2,2,CO)
+REC(60,19,2,2,CO)
+REC(60,25,2,2,CO)
+REC(26,19,2,2,CO)
+REC(26,25,2,2,CO)
+REC(34,19,2,2,CO)
+REC(52,25,2,2,CO)
+REC(52,19,2,2,CO)
+REC(30,29,28,2,PO)
+REC(56,15,2,14,PO)
+REC(30,15,2,14,PO)
+REC(25,18,4,14,ME)
+REC(59,18,4,14,ME)
+REC(51,18,4,10,ME)
+REC(33,14,22,4,ME)
+REC(33,18,4,10,ME)
+REC(30,18,2,10,DP)
+REC(56,18,2,10,DN)
+TITLE 27 30  #Vdd
+$1 1000 0 
+TITLE 61 30  #Vss
+$0 1000 0 
+TITLE 45 30  #clock1
+$c 1000 0 0.2250 0.2500 0.4750 0.5000 
+TITLE 45 16  #Inv
+$v 1000 0 
+FFIG C:\Users\alexo\OneDrive\Documents\MasterNuevasTecnologiasElectronicasyFotonicas\DiseñodeCircuitosIntegrados\Práctica1\P11.MSK
